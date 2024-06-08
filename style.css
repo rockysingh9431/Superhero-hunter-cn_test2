@@ -1,0 +1,133 @@
+/* General Styles */
+body {
+  color: white;
+  background: linear-gradient(45deg, rgb(0 115 58 / 94%) 5%, rgb(9, 9, 56));
+}
+
+.container {
+  margin-top: 140px;
+}
+
+/* Superhero Container Styles */
+.superhero-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: rgb(242, 242, 242);
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  padding: 1rem;
+  margin-bottom: 100px;
+}
+
+/* Card Styles */
+.card {
+  width: 18.7rem;
+  border: none;
+  box-shadow: 0px 0px 10px rgb(22, 20, 20);
+  background: linear-gradient(45deg, white 40%, grey);
+  cursor: pointer;
+}
+
+/* Hero Image Styles */
+.hero-image {
+  display: flex;
+  justify-content: center;
+}
+
+.hero-image > img {
+  height: 600px;
+  width: 100%;
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+}
+
+/* Icon Styles */
+.fa-heart {
+  font-size: 2rem;
+  cursor: pointer;
+  color: grey;
+  font-weight: bolder;
+}
+
+/* Navbar Styles */
+.navbar {
+  color: white;
+  background-color: transparent;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  position: fixed;
+  width: 100%;
+  top: 0%;
+  right: 0%;
+  z-index: 10;
+  background: linear-gradient(135deg, rgb(121 6 6) 5%, rgb(0 0 57));
+}
+
+.navbar-brand {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+  margin-left: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 35%;
+}
+
+.navbar-brand img {
+  height: 80px;
+}
+
+/* Navigation List Styles */
+.navigation-list {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  list-style-type: none;
+}
+
+.navigation-list li a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Search Box Styles */
+.search-box {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  margin-top: -5px;
+}
+
+.search-input {
+  width: 75%;
+  padding: 0.6rem;
+  padding-left: 2rem;
+  border-top-left-radius: 2rem;
+  border-bottom-left-radius: 2rem;
+}
+
+.search-input:focus {
+  border-color: rgb(255, 255, 255);
+}
+
+.search-btn {
+  width: 10%;
+  padding: 0.6rem;
+  border-top-right-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  margin-left: -4px;
+}
+
+/* Profile Styles */
+.profile {
+  font-size: 2rem;
+  margin-right: 30px;
+}

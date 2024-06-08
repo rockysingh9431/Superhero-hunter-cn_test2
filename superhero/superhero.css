@@ -1,0 +1,81 @@
+/* Container for superhero information */
+.superhero-info {
+  padding: 1rem;
+  background-color: rgba(5, 43, 30, 0.2); /* Semi-transparent background */
+  border-radius: 2rem; /* Rounded corners */
+}
+
+/* Title styling */
+.title {
+  display: flex;
+  justify-content: center;
+  font-weight: bolder;
+  color: rgb(253, 253, 253); /* White color */
+}
+
+/* Container for image and description */
+.desc-img {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+/* Styling for hero image */
+.hero-img {
+  width: 600px;
+  height: 500px;
+  border-radius: 2rem; /* Rounded corners */
+  box-shadow: 0px 0px 20px rgb(10, 9, 9); /* Shadow effect */
+}
+
+/* Styling for name and description section */
+.name-desc {
+  margin-left: 100px;
+  color: bisque; /* Light color */
+}
+
+/* Styling for links in stock list */
+.stock-list li a {
+  color: rgb(255, 183, 183); /* Light pink color */
+  text-decoration: none; /* Remove underline */
+}
+
+/* Styling for stock list */
+.stock-list {
+  margin-top: 80px;
+  list-style: none; /* Remove bullet points */
+  font-size: 2rem; /* Increase font size */
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* Container for superhero data */
+.superhero-data {
+  padding: 20px;
+}
+
+/* Generic container for comics, events, stories, and series */
+.mag {
+  padding: 1rem;
+  padding-left: 40px;
+}
+
+/* Styling for names in comics, events, stories, and series */
+.cess-name {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+}
+
+/* Underline styling for titles */
+.title-underline {
+  margin: auto;
+  width: 500px;
+  color: rgb(255, 89, 0); /* Orange color */
+  border: 2px solid; /* Solid border */
+  border-radius: 5rem; /* Rounded corners */
+}
+
+/* Container for comics, events, stories, and series sections */
+.cess-container {
+  width: 600px;
+}
