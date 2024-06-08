@@ -34,47 +34,55 @@
 
   <body>
     <!-- Navigation bar -->
-    <nav class="nav-container">
-      <div class="navbar-brand">
-        <!-- Logo image -->
-        <a href="../index.html"
-          ><img src="../images/hero.jpg" alt="hero-logo"
-        /></a>
-        <ul class="navigation-list">
-          <li>
-            <a href="/favorite/favorite.html">Favorite SuperHeroes</a>
-          </li>
-          <li><a href="/about">About</a></li>
-        </ul>
-      </div>
+    <header>
+      <nav class="nav-container">
+        <div class="navbar-brand">
+          <!-- Logo image -->
+          <a href="../index.html"
+            ><img src="../images/hero.jpg" alt="hero-logo"
+          /></a>
+          <ul class="navigation-list">
+            <li>
+              <a href="/favorite/favorite.html">Favorite SuperHeroes</a>
+            </li>
+            <li><a href="/about">About</a></li>
+          </ul>
+        </div>
 
-      <!-- Search box form -->
-      <form class="search-box">
-        <input
-          id="search-input"
-          class="search-input"
-          type="text"
-          placeholder="Search"
-          value=""
-        />
-        <button id="search-btn" class="search-btn" type="submit">
-          <i class="fa-solid fa-magnifying-glass"></i>
-        </button>
-      </form>
+        <!-- Search box form -->
+        <form class="search-box">
+          <input
+            id="search-input"
+            class="search-input"
+            type="text"
+            placeholder="Search"
+            value=""
+          />
+          <button id="search-btn" class="search-btn" type="submit">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </form>
 
-      <!-- Profile icon -->
-      <div class="profile">
-        <i class="fa-solid fa-user"></i>
-      </div>
-    </nav>
+        <!-- Profile icon -->
+        <div class="profile">
+          <i class="fa-solid fa-user"></i>
+        </div>
+      </nav>
+    </header>
 
     <!-- Main container -->
-    <div class="container">
-      <!-- Superheroes container -->
-      <div id="superheroes" class="superhero-container"></div>
-    </div>
+    <main>
+      <div class="container">
+        <!-- Superheroes container -->
+        <div id="superheroes" class="superhero-container"></div>
+      </div>
+    </main>
 
+    <footer>
+      <p>&copy; 2024 SuperHero Hunter. All rights reserved.</p>
+    </footer>
     <!-- Module script for favorite superheroes -->
+
     <script type="module" src="favorite.js"></script>
 
     <!-- Bootstrap JS Bundle -->

@@ -131,3 +131,8 @@ body {
   font-size: 2rem;
   margin-right: 30px;
 }
+footer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}

@@ -42,52 +42,59 @@
 
   <body>
     <!-- Navigation bar -->
-    <nav class="nav-container">
-      <div class="navbar-brand">
-        <!-- Logo image -->
-        <a href="../index.html"
-          ><img src="../images/hero.jpg" alt="hero-logo"
-        /></a>
+    <header>
+      <nav class="nav-container">
+        <div class="navbar-brand">
+          <!-- Logo image -->
+          <a href="../index.html"
+            ><img src="../images/hero.jpg" alt="hero-logo"
+          /></a>
 
-        <!-- Navigation links -->
-        <ul class="navigation-list">
-          <li>
-            <a href="../favorite/favorite.html">Favorite SuperHeroes</a>
-          </li>
-          <li>
-            <a href="/about">About</a>
-          </li>
-        </ul>
-      </div>
+          <!-- Navigation links -->
+          <ul class="navigation-list">
+            <li>
+              <a href="../favorite/favorite.html">Favorite SuperHeroes</a>
+            </li>
+            <li>
+              <a href="/about">About</a>
+            </li>
+          </ul>
+        </div>
 
-      <!-- Hero name -->
-      <h3 id="hero-name">Rocky Singh</h3>
+        <!-- Hero name -->
+        <h3 id="hero-name">Rocky Singh</h3>
 
-      <!-- Profile icon -->
-      <div class="profile">
-        <i class="fa-solid fa-user"></i>
-      </div>
-    </nav>
+        <!-- Profile icon -->
+        <div class="profile">
+          <i class="fa-solid fa-user"></i>
+        </div>
+      </nav>
+    </header>
 
     <!-- Main content container -->
-    <div class="container">
-      <div class="superhero-info">
-        <!-- Image and description of the superhero -->
-        <div id="descImg" class="desc-img"></div>
-        <hr />
-        <!-- Container for superhero data -->
-        <div id="allData" class="superhero-data">
-          <div id="comics" class="comics"></div>
+    <main>
+      <div class="container">
+        <div class="superhero-info">
+          <!-- Image and description of the superhero -->
+          <div id="descImg" class="desc-img"></div>
           <hr />
-          <div id="events" class="events"></div>
-          <hr />
-          <div id="stories" class="stories"></div>
-          <hr />
-          <div id="series" class="series"></div>
+          <!-- Container for superhero data -->
+          <div id="allData" class="superhero-data">
+            <div id="comics" class="comics"></div>
+            <hr />
+            <div id="events" class="events"></div>
+            <hr />
+            <div id="stories" class="stories"></div>
+            <hr />
+            <div id="series" class="series"></div>
+          </div>
         </div>
       </div>
-    </div>
+    </main>
 
+    <footer>
+      <p>&copy; 2024 SuperHero Hunter. All rights reserved.</p>
+    </footer>
     <!-- JavaScript file for the superhero page functionality -->
     <script type="module" src="superhero.js"></script>
   </body>
